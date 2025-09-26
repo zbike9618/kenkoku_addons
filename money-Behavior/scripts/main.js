@@ -1,4 +1,4 @@
-import { world,server} from "@minecraft/server";
+import { world} from "@minecraft/server";
 
 
 world.beforeEvents.itemUse.subscribe(ev => {
@@ -17,3 +17,4 @@ world.beforeEvents.itemUse.subscribe(ev => {
         player.sendMessage(`${number}円入金しました`);
     }
 })
+
