@@ -1,0 +1,40 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "チョコミントアイスアドオン",
+    "description": "チョコミントアイスを追加します",
+    "uuid": "adfac116-3164-409f-a89c-d31366588136",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "b1ef9620-c58e-4fa3-bdcd-f5f1d3c70c12",
+      "entry": "scripts/main.js",
+      "version": [0, 1, 0]
+    },
+    {
+      "description": "チョコミントアイスを追加します",
+      "type": "data",
+      "uuid": "adfac116-3164-409f-a89c-d35566588137",
+      "version": [1, 0, 0]
+    }
+  ],
+  "capabilities": ["script_eval"],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.10.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "1.1.0"
+    },
+    {
+      "uuid": "adfac116-3164-409f-a89c-d31366588118",
+      "version": [1, 0, 0]
+    }
+  ]
+}
