@@ -1,0 +1,23 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:pepper_recipe"
+        },
+        "tags": [
+            "mixer"
+        ],
+        "pattern": [
+            "#"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:vine"
+            }
+        },
+        "result": {
+            "item": "mc:pepper",
+            "count": 3
+        }
+    }
+}

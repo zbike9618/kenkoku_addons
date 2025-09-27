@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:beef_minced_meatrecipe"
+        },
+        "tags": [
+            "mixer"
+        ],
+        "pattern": [
+            "#  ",
+            "   ",
+            "   "
+        ],
+        "key": {
+            "#": {
+                "item": "mc:beef_leg"
+            }
+        },
+        "result": {
+            "item": "mc:beef_minced_meat",
+            "count": 2
+        }
+    }
+}

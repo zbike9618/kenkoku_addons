@@ -1,0 +1,48 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:syoyu_ramen_recipe"
+        },
+        "tags": [
+            "stew"
+        ],
+        "pattern": [
+            "bcd",
+            "ae#",
+            "fg "
+        ],
+        "key": {
+            "#": {
+                "item": "mc:noodle"
+            },
+            "a": {
+                "item": "mc:roasted_pork_fillet"
+            },
+            "b": {
+                "item": "mc:pepper"
+            },
+            "c": {
+                "item": "mc:garlic_mizin"
+            },
+            "d": {
+                "item": "mc:boiled_egg"
+            },
+            "f": {
+                "item": "mc:syoyu"
+            },
+            "e": {
+                "item": "minecraft:bowl"
+            },
+            "g": {
+                "item": "minecraft:dried_kelp"
+            }
+        },
+        "result": [
+            {
+                "item": "mc:syoyu_ramen",
+                "count": 1
+            }
+        ]
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:daifuku_recipe"
+        },
+        "tags": [
+            "oven_range"
+        ],
+        "pattern": [
+            "*#",
+            "ab"
+        ],
+        "key": {
+            "#": {
+                "item": "mc:anko"
+            },
+            "*": {
+                "item": "mc:rice_powder"
+            },
+            "a": {
+                "item": "minecraft:sugar"
+            },
+            "b": {
+                "item": "minecraft:potion",
+                "data": 0
+            }
+        },
+        "result": [
+            {
+                "item": "mc:daifuku",
+                "count": 1
+            },
+            {
+                "item": "minecraft:glass_bottle",
+                "count": 1
+            }
+        ]
+    }
+}

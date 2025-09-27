@@ -1,0 +1,43 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:margherita_pizza_recipe"
+        },
+        "tags": [
+            "oven_range"
+        ],
+        "pattern": [
+            "bcd",
+            "ae#",
+            "   "
+        ],
+        "key": {
+            "#": {
+                "item": "mc:pizza_dough"
+            },
+            "a": {
+                "item": "mc:ovlive_oil"
+            },
+            "b": {
+                "item": "mc:basil"
+            },
+            "c": {
+                "item": "mc:cheese"
+            },
+            "d": {
+                "item": "mc:tomato_sauce"
+            },
+            "e": {
+                "item": "mc:tomato_cut"
+            }
+
+        },
+        "result": [
+            {
+                "item": "mc:margherita_pizza",
+                "count": 1
+            }
+        ]
+    }
+}

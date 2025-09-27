@@ -1,0 +1,41 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:squid_roast_recipe"
+        },
+        "tags": [
+            "iron_board",
+            "fryingpan"
+        ],
+        "pattern": [
+            "abc",
+            "d# ",
+            "+  "
+        ],
+        "key": {
+            "+": {
+                "item": "minecraft:stick"
+            },
+            "#": {
+                "item": "mc:squid"
+            },
+            "a": {
+                "item": "mc:syoyu"
+            },
+            "b": {
+                "item": "mc:sake"
+            },
+            "c": {
+                "item": "minecraft:sugar"
+            },
+            "d": {
+                "item": "mc:food_oil"
+            }
+        },
+        "result": {
+            "item": "mc:squid_roast",
+            "count": 1
+        }
+    }
+}

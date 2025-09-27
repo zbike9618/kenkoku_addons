@@ -1,0 +1,29 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:squid_tempra_recipe"
+        },
+        "tags": [
+            "fry_stew"
+        ],
+        "pattern": [
+            "*+a"
+        ],
+        "key": {
+            "*": {
+                "item": "mc:cut_raw_squid"
+            },
+            "+": {
+                "item": "mc:food_oil"
+            },
+            "a": {
+                "item": "mc:flour"
+            }
+        },
+        "result": {
+            "item": "mc:squid_tempra",
+            "count": 1
+        }
+    }
+}

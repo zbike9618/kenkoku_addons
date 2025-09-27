@@ -1,0 +1,51 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:napoletana_spaghetti_recipe"
+        },
+        "tags": [
+            "deep_stew"
+        ],
+        "pattern": [
+            "dhk",
+            "ab#",
+            "egc"
+        ],
+        "key": {
+            "#": {
+                "item": "mc:noodle"
+            },
+            "a": {
+                "item": "mc:ovlive_oil"
+            },
+            "c": {
+                "item": "mc:bacon"
+            },
+            "b": {
+                "item": "mc:pepper"
+            },
+            "e": {
+                "item": "minecraft:bowl"
+            },
+            "g": {
+                "item": "mc:tomato_sauce"
+            },
+            "d": {
+                "item": "mc:tomato_cut"
+            },
+            "h": {
+                "item": "mc:white_wine"
+            },
+            "k": {
+                "item": "mc:garlic_mizin"
+            }
+        },
+        "result": [
+            {
+                "item": "mc:napoletana_spaghetti",
+                "count": 1
+            }
+        ]
+    }
+}

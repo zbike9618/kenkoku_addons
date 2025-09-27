@@ -1,0 +1,40 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:bacon_recipe"
+        },
+        "tags": [
+            "fermentation_machine"
+        ],
+        "pattern": [
+            "#ab",
+            "cde",
+            "   "
+        ],
+        "key": {
+            "#": {
+                "item": "mc:pork_boned_rib"
+            },
+            "a": {
+                "item": "mc:salt"
+            },
+            "b": {
+                "item": "mc:pepper"
+            },
+            "c": {
+                "item": "mc:basil"
+            },
+            "d": {
+                "item": "minecraft:sugar"
+            },
+            "e": {
+                "item": "mc:garlic_mizin"
+            }
+        },
+        "result": {
+            "item": "mc:bacon",
+            "count": 2
+        }
+    }
+}

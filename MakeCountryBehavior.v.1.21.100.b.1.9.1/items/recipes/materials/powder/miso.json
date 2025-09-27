@@ -1,0 +1,31 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:miso_recipe"
+        },
+        "tags": [
+            "fermentation_machine"
+        ],
+        "pattern": [
+            "*#a"
+        ],
+        "key": {
+            "#": {
+                "item": "mc:yeast"
+            },
+            "*": {
+                "item": "mc:salt"
+            },
+            "a": {
+                "item": "mc:soybeans"
+            }
+        },
+        "result": [
+            {
+                "item": "mc:miso",
+                "count": 2
+            }
+        ]
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "minecraft:furnace_porkchop"
+        },
+        "tags": [
+            "delete"
+        ],
+        "input": {
+            "item": "minecraft:porkchop"
+        },
+        "output": {
+            "item": "minecraft:dirt",
+            "count": 1
+        }
+    }
+}

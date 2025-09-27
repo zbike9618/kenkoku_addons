@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:pork_sasami_recipe"
+        },
+        "tags": [
+            "cutting_board"
+        ],
+        "pattern": [
+            " # ",
+            "   ",
+            "   "
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:porkchop"
+            }
+        },
+        "result": {
+            "item": "mc:pork_sasami",
+            "count": 2
+        }
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:straw_berry_daifuku_recipe"
+        },
+        "tags": [
+            "oven_range"
+        ],
+        "pattern": [
+            "*#c",
+            "ab"
+        ],
+        "key": {
+            "#": {
+                "item": "mc:anko"
+            },
+            "*": {
+                "item": "mc:rice_powder"
+            },
+            "a": {
+                "item": "minecraft:sugar"
+            },
+            "b": {
+                "item": "minecraft:potion",
+                "data": 0
+            },
+            "c": {
+                "item": "mc:straw_berry"
+            }
+        },
+        "result": [
+            {
+                "item": "mc:straw_berry_daifuku",
+                "count": 1
+            },
+            {
+                "item": "minecraft:glass_bottle",
+                "count": 1
+            }
+        ]
+    }
+}

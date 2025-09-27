@@ -1,0 +1,40 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:meatlovers_pizza_recipe"
+        },
+        "tags": [
+            "oven_range"
+        ],
+        "pattern": [
+            "acd",
+            "e# ",
+            "   "
+        ],
+        "key": {
+            "#": {
+                "item": "mc:pizza_dough"
+            },
+            "a": {
+                "item": "mc:bacon"
+            },
+            "c": {
+                "item": "mc:cheese"
+            },
+            "d": {
+                "item": "mc:tomato_sauce"
+            },
+            "e": {
+                "item": "mc:tomato_cut"
+            }
+
+        },
+        "result": [
+            {
+                "item": "mc:meatlovers_pizza",
+                "count": 1
+            }
+        ]
+    }
+}

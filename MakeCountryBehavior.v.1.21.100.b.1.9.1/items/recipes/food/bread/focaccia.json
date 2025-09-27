@@ -1,0 +1,34 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:focaccia_recipe"
+        },
+        "tags": [
+            "oven_range"
+        ],
+        "pattern": [
+            "ac ",
+            "##",
+            "   "
+        ],
+        "key": {
+            "#": {
+                "item": "mc:bread_material"
+            },
+            "a": {
+                "item": "mc:ovlive_oil"
+            },
+            "c": {
+                "item": "minecraft:sugar"
+            }
+
+        },
+        "result": [
+            {
+                "item": "mc:focaccia",
+                "count": 1
+            }
+        ]
+    }
+}

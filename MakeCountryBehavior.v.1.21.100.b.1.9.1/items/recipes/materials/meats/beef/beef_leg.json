@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:beef_leg_recipe"
+        },
+        "tags": [
+            "cutting_board"
+        ],
+        "pattern": [
+            " # ",
+            "   ",
+            "   "
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:beef"
+            }
+        },
+        "result": {
+            "item": "mc:beef_leg",
+            "count": 2
+        }
+    }
+}

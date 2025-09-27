@@ -1,0 +1,17 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "mc:porkchop_recipe"
+        },
+        "tags": [
+            "furnace", "smoker", "campfire"
+        ],
+        "input": {
+            "item": "mc:pork_chop"
+        },
+        "output": {
+            "item": "minecraft:cooked_porkchop"
+        }
+    }
+}

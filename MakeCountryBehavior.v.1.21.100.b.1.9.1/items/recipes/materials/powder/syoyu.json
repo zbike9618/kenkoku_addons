@@ -1,0 +1,35 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:syoyu_recipe"
+        },
+        "tags": [
+            "fermentation_machine"
+        ],
+        "pattern": [
+            "*#a",
+            "b  "
+        ],
+        "key": {
+            "#": {
+                "item": "mc:yeast"
+            },
+            "*": {
+                "item": "mc:salt"
+            },
+            "a": {
+                "item": "mc:soybeans"
+            },
+            "b": {
+                "item": "minecraft:wheat"
+            }
+        },
+        "result": [
+            {
+                "item": "mc:syoyu",
+                "count": 1
+            }
+        ]
+    }
+}

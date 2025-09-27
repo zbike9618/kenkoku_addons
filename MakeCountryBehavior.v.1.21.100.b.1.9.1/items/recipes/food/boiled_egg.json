@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:boiled_egg_recipe"
+        },
+        "tags": [
+            "stew"
+        ],
+        "pattern": [
+            "#  ",
+            "   ",
+            "   "
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:egg"
+            }
+        },
+        "result": {
+            "item": "mc:boiled_egg",
+            "count": 1
+        }
+    }
+}

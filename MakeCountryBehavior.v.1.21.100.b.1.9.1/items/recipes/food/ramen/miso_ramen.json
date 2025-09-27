@@ -1,0 +1,51 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:miso_ramen_recipe"
+        },
+        "tags": [
+            "stew"
+        ],
+        "pattern": [
+            "bcd",
+            "ae#",
+            "fgh"
+        ],
+        "key": {
+            "#": {
+                "item": "mc:noodle"
+            },
+            "a": {
+                "item": "mc:roasted_pork_fillet"
+            },
+            "b": {
+                "item": "mc:miso"
+            },
+            "h": {
+                "item": "mc:pepper"
+            },
+            "c": {
+                "item": "mc:food_oil"
+            },
+            "d": {
+                "item": "mc:boiled_egg"
+            },
+            "f": {
+                "item": "mc:syoyu"
+            },
+            "e": {
+                "item": "minecraft:bowl"
+            },
+            "g": {
+                "item": "minecraft:dried_kelp"
+            }
+        },
+        "result": [
+            {
+                "item": "mc:miso_ramen",
+                "count": 1
+            }
+        ]
+    }
+}

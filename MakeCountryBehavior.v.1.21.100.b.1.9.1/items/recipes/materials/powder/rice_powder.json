@@ -1,0 +1,27 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:rice_powder_recipe"
+        },
+        "tags": [
+            "mixer"
+        ],
+        "pattern": [
+            "#  ",
+            "   ",
+            "   "
+        ],
+        "key": {
+            "#": {
+                "item": "mc:rice"
+            }
+        },
+        "result": [
+            {
+                "item": "mc:rice_powder",
+                "count": 1
+            }
+        ]
+    }
+}

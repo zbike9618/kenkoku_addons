@@ -1,0 +1,49 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:carbonara_spaghetti_recipe"
+        },
+        "tags": [
+            "deep_stew"
+        ],
+        "pattern": [
+            "d  ",
+            "ab#",
+            "egc"
+        ],
+        "key": {
+            "#": {
+                "item": "mc:noodle"
+            },
+            "a": {
+                "item": "mc:ovlive_oil"
+            },
+            "c": {
+                "item": "mc:bacon"
+            },
+            "b": {
+                "item": "mc:pepper"
+            },
+            "e": {
+                "item": "minecraft:bowl"
+            },
+            "g": {
+                "item": "mc:cheese"
+            },
+            "d": {
+                "item": "minecraft:milk_bucket"
+            }
+        },
+        "result": [
+            {
+                "item": "mc:carbonara_spaghetti",
+                "count": 1
+            },
+            {
+                "item": "minecraft:bucket",
+                "count": 1
+            }
+        ]
+    }
+}

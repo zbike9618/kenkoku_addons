@@ -1,0 +1,42 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:bolognese_spaghetti_recipe"
+        },
+        "tags": [
+            "deep_stew"
+        ],
+        "pattern": [
+            "   ",
+            "ab#",
+            "egc"
+        ],
+        "key": {
+            "#": {
+                "item": "mc:noodle"
+            },
+            "a": {
+                "item": "mc:ovlive_oil"
+            },
+            "c": {
+                "item": "mc:basil"
+            },
+            "b": {
+                "item": "mc:meatsauce"
+            },
+            "e": {
+                "item": "minecraft:bowl"
+            },
+            "g": {
+                "item": "mc:cheese"
+            }
+        },
+        "result": [
+            {
+                "item": "mc:bolognese_spaghetti",
+                "count": 1
+            }
+        ]
+    }
+}

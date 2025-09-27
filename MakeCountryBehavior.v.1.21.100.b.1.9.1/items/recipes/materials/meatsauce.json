@@ -1,0 +1,51 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:meatsauce_recipe"
+        },
+        "tags": [
+            "fryingpan"
+        ],
+        "pattern": [
+            "bcd",
+            "ae#",
+            "fgh"
+        ],
+        "key": {
+            "#": {
+                "item": "mc:beef_minced_meat"
+            },
+            "a": {
+                "item": "mc:ovlive_oil"
+            },
+            "b": {
+                "item": "mc:pepper"
+            },
+            "c": {
+                "item": "mc:garlic_mizin"
+            },
+            "d": {
+                "item": "mc:salt"
+            },
+            "f": {
+                "item": "mc:red_wine"
+            },
+            "e": {
+                "item": "mc:tomato_sauce"
+            },
+            "g": {
+                "item": "mc:carrot_mizin"
+            },
+            "h": {
+                "item": "mc:syoyu"
+            }
+        },
+        "result": [
+            {
+                "item": "mc:meatsauce",
+                "count": 3
+            }
+        ]
+    }
+}

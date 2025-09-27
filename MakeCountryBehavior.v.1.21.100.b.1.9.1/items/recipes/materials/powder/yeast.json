@@ -1,0 +1,33 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:yeast_recipe"
+        },
+        "tags": [
+            "fermentation_machine"
+        ],
+        "pattern": [
+            "*##"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:wheat"
+            },
+            "*": {
+                "item": "minecraft:potion",
+                "data": 0
+            }
+        },
+        "result": [
+            {
+                "item": "mc:yeast",
+                "count": 2
+            },
+            {
+                "item": "minecraft:glass_bottle",
+                "count": 1
+            }
+        ]
+    }
+}

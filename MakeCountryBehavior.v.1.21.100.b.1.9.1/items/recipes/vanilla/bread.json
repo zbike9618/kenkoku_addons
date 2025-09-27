@@ -1,0 +1,26 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:bread_recipe"
+        },
+        "tags": [
+            "oven_range"
+        ],
+        "pattern": [
+            " #",
+            "# "
+        ],
+        "key": {
+            "#": {
+                "item": "mc:bread_material"
+            }
+        },
+        "result": [
+            {
+                "item": "minecraft:bread",
+                "count": 1
+            }
+        ]
+    }
+}

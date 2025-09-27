@@ -1,0 +1,18 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "minecraft:furnace_beef"
+        },
+        "tags": [
+            "delete"
+        ],
+        "input": {
+            "item": "minecraft:beef"
+        },
+        "output": {
+            "item": "minecraft:dirt",
+            "count": 1
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:anko_recipe"
+        },
+        "tags": [
+            "stew"
+        ],
+        "pattern": [
+            "*#",
+            "aa"
+        ],
+        "key": {
+            "#": {
+                "item": "mc:adzuki_beans"
+            },
+            "*": {
+                "item": "mc:salt"
+            },
+            "a": {
+                "item": "minecraft:sugar"
+            }
+        },
+        "result": [
+            {
+                "item": "mc:anko",
+                "count": 2
+            }
+        ]
+    }
+}
