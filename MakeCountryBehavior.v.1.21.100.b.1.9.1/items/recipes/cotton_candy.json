@@ -1,0 +1,28 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:cotton_candy_recipe"
+        },
+        "tags": [
+            "stew"
+        ],
+        "pattern": [
+            "***",
+            "***",
+            " # "
+        ],
+        "key": {
+            "*": {
+                "item": "minecraft:sugar"
+            },
+            "#": {
+                "item": "minecraft:stick"
+            }
+        },
+        "result": {
+            "item": "mc:cotton_candy",
+            "count": 1
+        }
+    }
+}

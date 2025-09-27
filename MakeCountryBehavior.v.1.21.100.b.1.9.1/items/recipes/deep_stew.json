@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:deep_stew_recipe"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "# #",
+            "# #",
+            "###"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:iron_block"
+            }
+        },
+        "result": {
+            "item": "mc:deep_stew",
+            "count": 1
+        }
+    }
+}

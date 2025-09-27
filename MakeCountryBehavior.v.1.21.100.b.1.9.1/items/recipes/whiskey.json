@@ -1,0 +1,27 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:whiskey_recipe"
+        },
+        "tags": [
+            "fermentation_machine"
+        ],
+        "pattern": [
+            "#-"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:potion",
+                "data": 0
+            },
+            "-": {
+                "item": "mc:barley"
+            }
+        },
+        "result": {
+            "item": "mc:whiskey",
+            "count": 1
+        }
+    }
+}

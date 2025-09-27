@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:tomato_sauce_recipe"
+        },
+        "tags": [
+            "stew"
+        ],
+        "pattern": [
+            "#  ",
+            "   ",
+            "   "
+        ],
+        "key": {
+            "#": {
+                "item": "mc:tomato_juice"
+            }
+        },
+        "result": {
+            "item": "mc:tomato_sauce",
+            "count": 1
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:glowberry_shavedice_recipe"
+        },
+        "tags": [
+            "shaved_ice_machine"
+        ],
+        "pattern": [
+            "#*#",
+            " # "
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:blue_ice"
+            },
+            "*": {
+                "item": "minecraft:glow_berries"
+            }
+        },
+        "result": {
+            "item": "mc:glowberry_shavedice",
+            "count": 1
+        }
+    }
+}

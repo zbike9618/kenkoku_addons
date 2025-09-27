@@ -1,0 +1,26 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:karaage_recipe"
+        },
+        "tags": [
+            "fry_stew"
+        ],
+        "pattern": [
+            "*+"
+        ],
+        "key": {
+            "*": {
+                "item": "minecraft:chicken"
+            },
+            "+": {
+                "item": "mc:food_oil"
+            }
+        },
+        "result": {
+            "item": "mc:karaage",
+            "count": 1
+        }
+    }
+}

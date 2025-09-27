@@ -1,0 +1,26 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:gyudon_recipe"
+        },
+        "tags": [
+            "cutting_board"
+        ],
+        "pattern": [
+            "*#"
+        ],
+        "key": {
+            "*": {
+                "item": "mc:cooked_rice"
+            },
+            "#": {
+                "item": "minecraft:beef"
+            }
+        },
+        "result": {
+            "item": "mc:gyudon",
+            "count": 1
+        }
+    }
+}

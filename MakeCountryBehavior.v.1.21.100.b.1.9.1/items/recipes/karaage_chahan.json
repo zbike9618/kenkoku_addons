@@ -1,0 +1,33 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:karaage_chahan_recipe"
+        },
+        "tags": [
+            "cutting_board"
+        ],
+        "pattern": [
+            "*+",
+            "#-"
+        ],
+        "key": {
+            "*": {
+                "item": "mc:cooked_rice"
+            },
+            "+": {
+                "item": "mc:karaage"
+            },
+            "-": {
+                "item": "mc:food_oil"
+            },
+            "#": {
+                "item": "minecraft:egg"
+            }
+        },
+        "result": {
+            "item": "mc:karaage_chahan",
+            "count": 1
+        }
+    }
+}

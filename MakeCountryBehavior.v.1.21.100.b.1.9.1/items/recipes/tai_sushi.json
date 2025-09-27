@@ -1,0 +1,26 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:tai_sushi_recipe"
+        },
+        "tags": [
+            "cutting_board"
+        ],
+        "pattern": [
+            "*+"
+        ],
+        "key": {
+            "*": {
+                "item": "mc:cooked_rice_vinegared"
+            },
+            "+": {
+                "item": "mc:tai"
+            }
+        },
+        "result": {
+            "item": "mc:tai_sushi",
+            "count": 1
+        }
+    }
+}

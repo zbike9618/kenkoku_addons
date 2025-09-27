@@ -1,0 +1,30 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:cola_recipe"
+        },
+        "tags": [
+            "stew"
+        ],
+        "pattern": [
+            "#*a"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:potion",
+                "data": 0
+            },
+            "*": {
+                "item": "mc:pepper"
+            },
+            "a": {
+                "item": "minecraft:sugar"
+            }
+        },
+        "result": {
+            "item": "mc:cola",
+            "count": 1
+        }
+    }
+}

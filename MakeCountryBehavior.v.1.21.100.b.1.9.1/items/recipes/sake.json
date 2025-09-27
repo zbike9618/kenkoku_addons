@@ -1,0 +1,27 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:sake_recipe"
+        },
+        "tags": [
+            "fermentation_machine"
+        ],
+        "pattern": [
+            "#*"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:potion",
+                "data": 0
+            },
+            "*": {
+                "item": "mc:rice"
+            }
+        },
+        "result": {
+            "item": "mc:sake",
+            "count": 1
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:stew_recipe"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "+#"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:iron_block"
+            },
+            "+": {
+                "item": "minecraft:stick"
+            }
+        },
+        "result": {
+            "item": "mc:stew",
+            "count": 1
+        }
+    }
+}

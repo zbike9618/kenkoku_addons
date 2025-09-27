@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:tomato_juice_recipe"
+        },
+        "tags": [
+            "mixer"
+        ],
+        "pattern": [
+            "#  ",
+            "   ",
+            "   "
+        ],
+        "key": {
+            "#": {
+                "item": "mc:tomato"
+            }
+        },
+        "result": {
+            "item": "mc:tomato_juice",
+            "count": 1
+        }
+    }
+}

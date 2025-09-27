@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:buns_recipe"
+        },
+        "tags": [
+            "cutting_board"
+        ],
+        "pattern": [
+            "#  ",
+            "   ",
+            "   "
+        ],
+        "key": {
+            "#": {
+                "item": "mc:circle_bread"
+            }
+        },
+        "result": {
+            "item": "mc:buns",
+            "count": 2
+        }
+    }
+}

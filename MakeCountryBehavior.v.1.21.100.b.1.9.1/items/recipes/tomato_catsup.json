@@ -1,0 +1,37 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:tomato_catsup_recipe"
+        },
+        "tags": [
+            "stew"
+        ],
+        "pattern": [
+            "#ab",
+            "cd ",
+            "   "
+        ],
+        "key": {
+            "#": {
+                "item": "mc:tomato_sauce"
+            },
+            "a": {
+                "item": "mc:vinegar"
+            },
+            "b": {
+                "item": "mc:onion_mizin"
+            },
+            "c": {
+                "item": "mc:salt"
+            },
+            "d": {
+                "item": "minecraft:sugar"
+            }
+        },
+        "result": {
+            "item": "mc:tomato_catsup",
+            "count": 1
+        }
+    }
+}

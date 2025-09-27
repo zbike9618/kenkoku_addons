@@ -1,0 +1,24 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:rice_cooker_recipe"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "##",
+            "##"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:iron_block"
+            }
+        },
+        "result": {
+            "item": "mc:rice_cooker",
+            "count": 1
+        }
+    }
+}

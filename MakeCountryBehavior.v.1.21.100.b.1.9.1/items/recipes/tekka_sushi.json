@@ -1,0 +1,29 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:tekka_sushi_recipe"
+        },
+        "tags": [
+            "cutting_board"
+        ],
+        "pattern": [
+            "*#+"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:dried_kelp_block"
+            },
+            "*": {
+                "item": "mc:cooked_rice_vinegared"
+            },
+            "+": {
+                "item": "mc:tuna"
+            }
+        },
+        "result": {
+            "item": "mc:tekka_sushi",
+            "count": 1
+        }
+    }
+}

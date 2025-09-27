@@ -1,0 +1,26 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:onion_mizin_recipe"
+        },
+        "tags": [
+            "mixer",
+            "cutting_board"
+        ],
+        "pattern": [
+            "#  ",
+            "   ",
+            "   "
+        ],
+        "key": {
+            "#": {
+                "item": "mc:onion"
+            }
+        },
+        "result": {
+            "item": "mc:onion_mizin",
+            "count": 1
+        }
+    }
+}

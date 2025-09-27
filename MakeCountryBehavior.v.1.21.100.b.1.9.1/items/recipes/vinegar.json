@@ -1,0 +1,36 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:vinegar_recipe"
+        },
+        "tags": [
+            "fermentation_machine"
+        ],
+        "pattern": [
+            "#*+"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:potion",
+                "data": 0
+            },
+            "*": {
+                "item": "mc:rice"
+            },
+            "+": {
+                "item": "mc:yeast"
+            }
+        },
+        "result": [
+            {
+                "item": "mc:vinegar",
+                "count": 1
+            },
+            {
+                "item": "minecraft:bone_meal",
+                "count": 1
+            }
+        ]
+    }
+}

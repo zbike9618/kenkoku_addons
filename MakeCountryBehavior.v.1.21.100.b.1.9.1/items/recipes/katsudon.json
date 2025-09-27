@@ -1,0 +1,33 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:katsudon_recipe"
+        },
+        "tags": [
+            "cutting_board"
+        ],
+        "pattern": [
+            "*+",
+            "-#"
+        ],
+        "key": {
+            "*": {
+                "item": "mc:cooked_rice"
+            },
+            "-": {
+                "item": "mc:food_oil"
+            },
+            "+": {
+                "item": "minecraft:porkchop"
+            },
+            "#": {
+                "item": "minecraft:egg"
+            }
+        },
+        "result": {
+            "item": "mc:katsudon",
+            "count": 1
+        }
+    }
+}

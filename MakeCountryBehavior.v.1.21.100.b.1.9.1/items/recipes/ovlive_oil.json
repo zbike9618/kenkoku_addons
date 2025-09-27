@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:ovlive_oil_recipe"
+        },
+        "tags": [
+            "mixer"
+        ],
+        "pattern": [
+            "#  ",
+            "   ",
+            "   "
+        ],
+        "key": {
+            "#": {
+                "item": "mc:ovlive"
+            }
+        },
+        "result": {
+            "item": "mc:ovlive_oil",
+            "count": 1
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:potato_mizin_recipe"
+        },
+        "tags": [
+            "mixer",
+            "cutting_board"
+        ],
+        "pattern": [
+            "#  ",
+            "   ",
+            "   "
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:potato"
+            }
+        },
+        "result": {
+            "item": "mc:potato_mizin",
+            "count": 1
+        }
+    }
+}

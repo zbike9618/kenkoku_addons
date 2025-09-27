@@ -1,0 +1,29 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:ikura_sushi_recipe"
+        },
+        "tags": [
+            "cutting_board"
+        ],
+        "pattern": [
+            "*#+"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:dried_kelp_block"
+            },
+            "*": {
+                "item": "mc:cooked_rice_vinegared"
+            },
+            "+": {
+                "item": "minecraft:salmon"
+            }
+        },
+        "result": {
+            "item": "mc:ikura_sushi",
+            "count": 1
+        }
+    }
+}

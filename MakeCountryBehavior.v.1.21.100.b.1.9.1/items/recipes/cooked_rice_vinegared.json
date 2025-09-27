@@ -1,0 +1,36 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:cooked_rice_vinegared_recipe"
+        },
+        "tags": [
+            "rice_cooker"
+        ],
+        "pattern": [
+            "*#+"
+        ],
+        "key": {
+            "#": {
+                "item": "mc:rice"
+            },
+            "*": {
+                "item": "minecraft:potion",
+                "data": 0
+            },
+            "+": {
+                "item": "mc:vinegar"
+            }
+        },
+        "result": [
+            {
+                "item": "mc:cooked_rice_vinegared",
+                "count": 2
+            },
+            {
+                "item": "minecraft:glass_bottle",
+                "count": 1
+            }
+        ]
+    }
+}

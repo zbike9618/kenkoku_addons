@@ -1,0 +1,26 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:gyudon_egg_recipe"
+        },
+        "tags": [
+            "cutting_board"
+        ],
+        "pattern": [
+            "*#"
+        ],
+        "key": {
+            "*": {
+                "item": "mc:gyudon"
+            },
+            "#": {
+                "item": "minecraft:egg"
+            }
+        },
+        "result": {
+            "item": "mc:gyudon_egg",
+            "count": 1
+        }
+    }
+}

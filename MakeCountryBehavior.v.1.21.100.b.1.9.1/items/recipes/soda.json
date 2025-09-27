@@ -1,0 +1,27 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:soda_recipe"
+        },
+        "tags": [
+            "fermentation_machine"
+        ],
+        "pattern": [
+            "#a"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:potion",
+                "data": 0
+            },
+            "a": {
+                "item": "minecraft:sugar"
+            }
+        },
+        "result": {
+            "item": "mc:soda",
+            "count": 1
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:green_tea_recipe"
+        },
+        "tags": [
+            "stew"
+        ],
+        "pattern": [
+            "#*"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:potion",
+                "data": 0
+            },
+            "*": {
+                "item": "minecraft:wheat_seeds"
+            }
+        },
+        "result": {
+            "item": "mc:green_tea",
+            "count": 1
+        }
+    }
+}

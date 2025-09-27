@@ -1,0 +1,33 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:dissolved_sugar_recipe"
+        },
+        "tags": [
+            "oven_range"
+        ],
+        "pattern": [
+            "*#"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:sugar"
+            },
+            "*": {
+                "item": "minecraft:potion",
+                "data": 0
+            }
+        },
+        "result": [
+            {
+                "item": "mc:dissolved_sugar",
+                "count": 1
+            },
+            {
+                "item": "minecraft:glass_bottle",
+                "count": 1
+            }
+        ]
+    }
+}

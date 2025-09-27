@@ -1,0 +1,29 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:cheese_recipe"
+        },
+        "tags": [
+            "cutting_board"
+        ],
+        "pattern": [
+            "*"
+        ],
+        "key": {
+            "*": {
+                "item": "mc:cheese_bucket"
+            }
+        },
+        "result": [
+            {
+                "item": "mc:cheese",
+                "count": 3
+            },
+            {
+                "item": "minecraft:bucket",
+                "count": 1
+            }
+        ]
+    }
+}

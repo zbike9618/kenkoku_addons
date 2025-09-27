@@ -1,0 +1,40 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:yakisoba_recipe"
+        },
+        "tags": [
+            "fryingpan",
+            "iron_board"
+        ],
+        "pattern": [
+            "+&-",
+            "*#("
+        ],
+        "key": {
+            "*": {
+                "item": "mc:noodle"
+            },
+            "-": {
+                "item": "mc:food_oil"
+            },
+            "+": {
+                "item": "minecraft:porkchop"
+            },
+            "#": {
+                "item": "minecraft:carrot"
+            },
+            "&": {
+                "item": "minecraft:beetroot"
+            },
+            "(": {
+                "item": "minecraft:potato"
+            }
+        },
+        "result": {
+            "item": "mc:yakisoba",
+            "count": 1
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:sweet_berry_juice_recipe"
+        },
+        "tags": [
+            "mixer"
+        ],
+        "pattern": [
+            "#*a"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:potion",
+                "data": 0
+            },
+            "*": {
+                "item": "minecraft:sweet_berries"
+            },
+            "a": {
+                "item": "minecraft:sugar"
+            }
+        },
+        "result": {
+            "item": "mc:sweet_berry_juice",
+            "count": 1
+        }
+    }
+}

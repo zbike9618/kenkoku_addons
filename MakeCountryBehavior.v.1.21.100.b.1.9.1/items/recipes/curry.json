@@ -1,0 +1,33 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:curry_recipe"
+        },
+        "tags": [
+            "deep_stew"
+        ],
+        "pattern": [
+            "&-",
+            "*#"
+        ],
+        "key": {
+            "*": {
+                "item": "mc:rice"
+            },
+            "-": {
+                "item": "mc:food_oil"
+            },
+            "#": {
+                "item": "minecraft:carrot"
+            },
+            "&": {
+                "item": "minecraft:beetroot"
+            }
+        },
+        "result": {
+            "item": "mc:curry",
+            "count": 1
+        }
+    }
+}

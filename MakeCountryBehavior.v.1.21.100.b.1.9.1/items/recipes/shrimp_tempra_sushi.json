@@ -1,0 +1,26 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:shrimp_tempra_sushi_recipe"
+        },
+        "tags": [
+            "cutting_board"
+        ],
+        "pattern": [
+            "*+"
+        ],
+        "key": {
+            "*": {
+                "item": "mc:shrimp_tempra"
+            },
+            "+": {
+                "item": "mc:cooked_rice_vinegared"
+            }
+        },
+        "result": {
+            "item": "mc:shrimp_tempra_sushi",
+            "count": 1
+        }
+    }
+}

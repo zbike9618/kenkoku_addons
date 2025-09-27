@@ -1,0 +1,34 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:vodka_recipe"
+        },
+        "tags": [
+            "fermentation_machine"
+        ],
+        "pattern": [
+            "#*",
+            "-+"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:potion",
+                "data": 0
+            },
+            "*": {
+                "item": "minecraft:wheat"
+            },
+            "+": {
+                "item": "minecraft:potato"
+            },
+            "-": {
+                "item": "mc:barley"
+            }
+        },
+        "result": {
+            "item": "mc:vodka",
+            "count": 1
+        }
+    }
+}

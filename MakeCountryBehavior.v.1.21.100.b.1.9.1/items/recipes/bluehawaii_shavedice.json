@@ -1,0 +1,28 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mc:bluehawaii_shavedice"
+        },
+        "tags": [
+            "shaved_ice_machine"
+        ],
+        "pattern": [
+            "#*#",
+            " # "
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:blue_ice"
+            },
+            "*": {
+                "item": "minecraft:dye",
+                "data": 18
+            }
+        },
+        "result": {
+            "item": "mc:bluehawaii_shavedice",
+            "count": 1
+        }
+    }
+}
