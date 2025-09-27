@@ -1,40 +1,36 @@
 {
   "format_version": 2,
   "header": {
-    "name": "チョコミントアイスアドオン",
-    "description": "チョコミントアイスを追加します",
-    "uuid": "adfac116-3164-409f-a89c-d31366588136",
-    "version": [1, 0, 0],
-    "min_engine_version": [1, 20, 0]
+      "name": "建国補助アドオン",
+      "description": "補助用",
+      "uuid": "1bf1b7ea-60e3-4591-b3ce-f1fee757a3b7",
+      "version": [ 1, 0, 0 ],
+      "min_engine_version": [ 1, 20, 60 ]
   },
   "modules": [
-    {
-      "type": "script",
-      "language": "javascript",
-      "uuid": "b1ef9620-c58e-4fa3-bdcd-f5f1d3c70c12",
-      "entry": "scripts/main.js",
-      "version": [0, 1, 0]
-    },
-    {
-      "description": "チョコミントアイスを追加します",
-      "type": "data",
-      "uuid": "adfac116-3164-409f-a89c-d35566588137",
-      "version": [1, 0, 0]
-    }
+      {
+          "description": "data",
+          "type": "data",
+          "uuid": "9096ecaf-f3d0-471e-9295-92483cc219d0",
+          "version": [1, 0, 0]
+      },
+      {
+          "description": "",
+          "type": "script",
+          "language": "javascript",
+          "uuid": "e0aa1229-7acf-452b-8f7a-22c40515168b",
+          "entry": "scripts/main.js",
+          "version": [ 1, 0, 0 ]
+      }
   ],
-  "capabilities": ["script_eval"],
   "dependencies": [
-    {
-      "module_name": "@minecraft/server",
-      "version": "1.10.0"
-    },
-    {
-      "module_name": "@minecraft/server-ui",
-      "version": "1.1.0"
-    },
-    {
-      "uuid": "adfac116-3164-409f-a89c-d31366588118",
-      "version": [1, 0, 0]
+      {
+          "module_name": "@minecraft/server",
+          "version": "2.0.0"
+      },
+      {
+        "module_name": "@minecraft/server-ui",
+        "version": "2.0.0"
     }
   ]
 }
