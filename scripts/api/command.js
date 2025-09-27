@@ -1,0 +1,46 @@
+import "./commands/money";
+import "./commands/sc";
+import "./commands/leavecountry";
+import "./commands/menu";
+import "./commands/cl";
+import "./commands/jc";
+import "./commands/mc";
+import "./commands/checkchunk";
+import "./commands/sendmoney";
+import "./commands/sethome";
+import "./commands/setup";
+import "./commands/home";
+import "./commands/homelist";
+import "./commands/deletehome";
+import "./commands/adminchunk";
+import "./commands/resetchunk";
+import "./commands/buychunk";
+import "./commands/playermarket";
+import "./commands/tpa";
+import "./commands/sellchunk";
+import "./commands/shop";
+import "./commands/jobs";
+import "./commands/kill";
+import "./commands/chome";
+import "./commands/fixcamera";
+import "./commands/invade";
+import "./commands/map";
+import "./commands/alliancechat";
+import "./commands/localchat";
+import "./commands/generalchat";
+import "./commands/countrychat";
+import "./commands/plot";
+import "./commands/cr";
+import "./commands/al";
+import "./commands/friendlychat";
+
+import "./commands/itemid";
+import "./commands/spawn";
+
+import "./commands/taxtime";
+import "./commands/deletecountry";
+import "./commands/playercount";
+import "./commands/fixcountrydata";
+import "./commands/updaterank";
+
+import "./commands/knw";
