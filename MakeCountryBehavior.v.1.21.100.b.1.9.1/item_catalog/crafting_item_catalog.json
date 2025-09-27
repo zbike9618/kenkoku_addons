@@ -1,0 +1,32 @@
+{
+    "format_version": "1.21.60",
+    "minecraft:crafting_items_catalog": {
+       "categories": [
+          {
+             "category_name": "items",
+             "groups": [
+                {
+                   "group_identifier": {
+                      "icon": "mc:fryingpan",
+                      "name": "mc:cooking_tools"
+                   },
+                   "items": [
+                      "mc:fryingpan",
+                      "mc:deep_stew",
+                      "mc:stew",
+                      "mc:fry_stew",
+                      "mc:oven_range",
+                      "mc:mixer",
+                      "mc:shaved_ice_machine",
+                      "mc:iron_board",
+                      "mc:fermentation_machine",
+                      "mc:steamer",
+                      "mc:cutting_board",
+                      "mc:rice_cooker"
+                   ]
+                }
+             ]
+          }
+       ]
+    }
+ }
