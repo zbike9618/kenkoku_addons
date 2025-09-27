@@ -1,0 +1,13 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:item": {
+        "description": {
+            "identifier": "mc:straw_berry"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "straw_berry"
+            }
+        }
+    }
+}
