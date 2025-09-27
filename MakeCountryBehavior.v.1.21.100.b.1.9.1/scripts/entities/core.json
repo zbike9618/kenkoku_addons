@@ -1,0 +1,376 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "mc:core",
+      "spawn_category": "creature",
+      "is_spawnable": true,
+      "is_summonable": true
+    },
+    "component_groups": {},
+    "components": {
+      "minecraft:physics": {},
+      "minecraft:type_family": {
+        "family": [
+          "core",
+          "makecountry"
+        ]
+      },
+      "minecraft:tick_world": {
+        "never_despawn": true,
+        "radius": 1
+      },
+      "minecraft:collision_box": {
+        "width": 1,
+        "height": 1
+      },
+      "minecraft:nameable": {
+        "always_show": true,
+        "allow_name_tag_renaming": false
+      },
+      "minecraft:health": {
+        "value": 1700,
+        "max": 1700
+      },
+      "minecraft:knockback_resistance": 1000,
+      "minecraft:boss": {
+        "hud_range": 20,
+        "name": "Core"
+      },
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "on_damage": {
+              "filters": {
+                "all_of": [
+                  {
+                    "test": "has_tag",
+                    "subject": "other",
+                    "operator": "!=",
+                    "value": "war1"
+                  },
+                  {
+                    "test": "has_tag",
+                    "subject": "self",
+                    "operator": "==",
+                    "value": "war1"
+                  }
+                ]
+              }
+            },
+            "deals_damage": false
+          },
+          {
+            "on_damage": {
+              "filters": {
+                "all_of": [
+                  {
+                    "test": "has_tag",
+                    "subject": "other",
+                    "operator": "!=",
+                    "value": "war2"
+                  },
+                  {
+                    "test": "has_tag",
+                    "subject": "self",
+                    "operator": "==",
+                    "value": "war2"
+                  }
+                ]
+              }
+            },
+            "deals_damage": false
+          },
+          {
+            "on_damage": {
+              "filters": {
+                "all_of": [
+                  {
+                    "test": "has_tag",
+                    "subject": "other",
+                    "operator": "!=",
+                    "value": "war3"
+                  },
+                  {
+                    "test": "has_tag",
+                    "subject": "self",
+                    "operator": "==",
+                    "value": "war3"
+                  }
+                ]
+              }
+            },
+            "deals_damage": false
+          },
+          {
+            "on_damage": {
+              "filters": {
+                "all_of": [
+                  {
+                    "test": "has_tag",
+                    "subject": "other",
+                    "operator": "!=",
+                    "value": "war4"
+                  },
+                  {
+                    "test": "has_tag",
+                    "subject": "self",
+                    "operator": "==",
+                    "value": "war4"
+                  }
+                ]
+              }
+            },
+            "deals_damage": false
+          },
+          {
+            "on_damage": {
+              "filters": {
+                "all_of": [
+                  {
+                    "test": "has_tag",
+                    "subject": "other",
+                    "operator": "!=",
+                    "value": "war5"
+                  },
+                  {
+                    "test": "has_tag",
+                    "subject": "self",
+                    "operator": "==",
+                    "value": "war5"
+                  }
+                ]
+              }
+            },
+            "deals_damage": false
+          },
+          {
+            "on_damage": {
+              "filters": {
+                "all_of": [
+                  {
+                    "test": "has_tag",
+                    "subject": "other",
+                    "operator": "!=",
+                    "value": "war6"
+                  },
+                  {
+                    "test": "has_tag",
+                    "subject": "self",
+                    "operator": "==",
+                    "value": "war6"
+                  }
+                ]
+              }
+            },
+            "deals_damage": false
+          },
+          {
+            "on_damage": {
+              "filters": {
+                "all_of": [
+                  {
+                    "test": "has_tag",
+                    "subject": "other",
+                    "operator": "!=",
+                    "value": "war7"
+                  },
+                  {
+                    "test": "has_tag",
+                    "subject": "self",
+                    "operator": "==",
+                    "value": "war7"
+                  }
+                ]
+              }
+            },
+            "deals_damage": false
+          },
+          {
+            "on_damage": {
+              "filters": {
+                "all_of": [
+                  {
+                    "test": "has_tag",
+                    "subject": "other",
+                    "operator": "!=",
+                    "value": "war8"
+                  },
+                  {
+                    "test": "has_tag",
+                    "subject": "self",
+                    "operator": "==",
+                    "value": "war8"
+                  }
+                ]
+              }
+            },
+            "deals_damage": false
+          },
+          {
+            "on_damage": {
+              "filters": {
+                "all_of": [
+                  {
+                    "test": "has_tag",
+                    "subject": "other",
+                    "operator": "!=",
+                    "value": "war9"
+                  },
+                  {
+                    "test": "has_tag",
+                    "subject": "self",
+                    "operator": "==",
+                    "value": "war9"
+                  }
+                ]
+              }
+            },
+            "deals_damage": false
+          },
+          {
+            "on_damage": {
+              "filters": {
+                "all_of": [
+                  {
+                    "test": "has_tag",
+                    "subject": "other",
+                    "operator": "!=",
+                    "value": "war10"
+                  },
+                  {
+                    "test": "has_tag",
+                    "subject": "self",
+                    "operator": "==",
+                    "value": "war10"
+                  }
+                ]
+              }
+            },
+            "deals_damage": false
+          },
+          {
+            "on_damage": {
+              "filters": {
+                "all_of": [
+                  {
+                    "test": "has_tag",
+                    "subject": "other",
+                    "operator": "!=",
+                    "value": "war11"
+                  },
+                  {
+                    "test": "has_tag",
+                    "subject": "self",
+                    "operator": "==",
+                    "value": "war11"
+                  }
+                ]
+              }
+            },
+            "deals_damage": false
+          },
+          {
+            "on_damage": {
+              "filters": {
+                "all_of": [
+                  {
+                    "test": "has_tag",
+                    "subject": "other",
+                    "operator": "!=",
+                    "value": "war12"
+                  },
+                  {
+                    "test": "has_tag",
+                    "subject": "self",
+                    "operator": "==",
+                    "value": "war12"
+                  }
+                ]
+              }
+            },
+            "deals_damage": false
+          },
+          {
+            "on_damage": {
+              "filters": {
+                "all_of": [
+                  {
+                    "test": "has_tag",
+                    "subject": "other",
+                    "operator": "!=",
+                    "value": "war13"
+                  },
+                  {
+                    "test": "has_tag",
+                    "subject": "self",
+                    "operator": "==",
+                    "value": "war13"
+                  }
+                ]
+              }
+            },
+            "deals_damage": false
+          },
+          {
+            "on_damage": {
+              "filters": {
+                "all_of": [
+                  {
+                    "test": "has_tag",
+                    "subject": "other",
+                    "operator": "!=",
+                    "value": "war14"
+                  },
+                  {
+                    "test": "has_tag",
+                    "subject": "self",
+                    "operator": "==",
+                    "value": "war14"
+                  }
+                ]
+              }
+            },
+            "deals_damage": false
+          },
+          {
+            "on_damage": {
+              "filters": {
+                "all_of": [
+                  {
+                    "test": "has_tag",
+                    "subject": "other",
+                    "operator": "!=",
+                    "value": "war15"
+                  },
+                  {
+                    "test": "has_tag",
+                    "subject": "self",
+                    "operator": "==",
+                    "value": "war15"
+                  }
+                ]
+              }
+            },
+            "deals_damage": false
+          },
+          {
+            "on_damage": {
+              "filters": {
+                "all_of": [
+                  {
+                    "test": "has_damage",
+                    "subject": "self",
+                    "operator": "!=",
+                    "value": "attack"
+                  }
+                ]
+              }
+            },
+            "deals_damage": false
+          }
+        ]
+      }
+    }
+  }
+}
