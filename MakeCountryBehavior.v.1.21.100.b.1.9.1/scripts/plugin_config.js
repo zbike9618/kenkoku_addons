@@ -1,2 +1,3 @@
 import "./plugins/blacklist";
-import "./plugins/sample";
+
+import "./plugins/commands";
