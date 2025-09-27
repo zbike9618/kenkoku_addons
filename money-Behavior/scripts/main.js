@@ -1,5 +1,6 @@
 import { world} from "@minecraft/server";
 
 
-import {} from "./moneys.js"
+import {} from "./money.js"
+
 
