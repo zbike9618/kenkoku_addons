@@ -9,7 +9,7 @@ system.beforeEvents.startup.subscribe(ev => {
      * @type {import("@minecraft/server").CustomCommand}
      */
     const Ctplobby = {
-        name: "MakeCountry:lobby", // コマンド名
+        name: "makecountry:lobby", // コマンド名
         description: "ロビーへtpする", // コマンド説明
         permissionLevel: CommandPermissionLevel.Any, // 権限レベル: 誰でも
         // 必須の引数
