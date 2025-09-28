@@ -64,7 +64,7 @@ system.beforeEvents.startup.subscribe(ev => {
         ], 
     }
     const csmcp = {
-        name: "makecountry:makecompany", // コマンド名
+        name: "makecountry:mcp", // コマンド名
         description: "会社を作る", // コマンド説明
         permissionLevel: CommandPermissionLevel.Any, // 権限レベル: 誰でも
         // 必須の引数
