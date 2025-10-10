@@ -2,4 +2,4 @@ import "./plugins/blacklist";
 
 import "./plugins/commands";
 
-import "./plugins/company/form"
+import "./plugins/company/main"
