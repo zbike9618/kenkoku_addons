@@ -31,7 +31,7 @@
 	"dependencies": [
 		{
 			"module_name": "@minecraft/server",
-			"version": "2.2.0-beta"
+			"version": "2.3.0-beta"
 		},
 		{
 			"module_name": "@minecraft/server-ui",
@@ -45,5 +45,10 @@
 			"module_name": "@minecraft/server-admin",
 			"version": "1.0.0-beta"
 		}
-	]
+	],
+    "capabilities": [
+        "script_eval"
+    ]
+	
+
 }
